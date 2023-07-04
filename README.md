@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshot
 
--Desktop View
+- Desktop View
   ![Screenshot 2023-07-04 210315](https://github.com/ChamodJ/3-Column-preview-Cars/assets/121800679/b5c3ceef-d475-4739-9f88-466d9565cb8a)
 
--Mobile View
+- Mobile View
   ![Screenshot 2023-07-04 210344](https://github.com/ChamodJ/3-Column-preview-Cars/assets/121800679/206ae4f4-67db-493a-889b-1befbe41cb8e)
   ![Screenshot 2023-07-04 210354](https://github.com/ChamodJ/3-Column-preview-Cars/assets/121800679/8a66747f-18aa-4686-8992-267b27111462)
 
