@@ -1,12 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=Lexend+Deca&display=swap');
+
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
+    width: 900px;
+    min-height: 450px;
+}
+
+.div-1, .div-2, .div-3 {
+    padding: 50px 60px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.div-1 h1, .div-2 h1, .div-3 h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.div-1 p, .div-2 p, .div-3 p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7; 
+    font-size: 0.9rem;
+}
+
+.div-1 a, .div-2 a, .div-3 a {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    width: 100px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.div-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.div-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.div-3 {
+    background-color: hsl(179, 100%, 13%);   
+}
+
+.div-1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.div-2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.div-3 a {
+    color: hsl(179, 100%, 13%);   
+}
+
+.div-1 a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
+}
+
+.div-2 a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
+}
+
+.div-3 a:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
 }
