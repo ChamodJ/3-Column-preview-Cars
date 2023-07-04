@@ -83,3 +83,25 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     background-color: transparent;
 }
+
+/*-----------------------------Media Quary----------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow: scroll;
+        margin: 50px 30px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .div-1, .div-2, .div-3 {
+        padding: 50px 60px 50px 40px;
+    }
+
+    .div-1 p, .div-2 p, .div-3 p {
+        margin-bottom: 25px;
+    }
+    
+}
